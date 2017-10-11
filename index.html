@@ -145,6 +145,21 @@
 </div>
 
 <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=433199826742778";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<!-- Header -->
+			<header id="header">
+				<div>
+					<span xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Event">
+					<span property="v:summary" content="Power Workshops"></span>
+					<span resource="https://devternity.com#workshops" rel="v:url"></span>
+					<span property="v:startDate" content="2017-12-02T00:00:00"></span>
+					<span rel="v:location">
 <script>
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -254,7 +269,7 @@
             </p>
             <h2></h2>
             <p>DevTernity is a place where <strong>forward-thinking developers, pragmatic architects and engineering
-                leaders grow</strong>.</strong>
+                leaders grow</strong>.
             </p>
             <p>
             </p>
@@ -481,30 +496,26 @@
             </p>
         </header>
 
-        <div class="row">
-            <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
-            <section class="tick feature 6u 12u$(medium) 12u$(small)">
-                <div class="row">
-                    <h3 class="title">{{event.pricing.name}}</h3>
-                </div>
-                <div class="row nopadding">
-                    <section class="4u" ng-repeat="product in event.pricing.products"
-                             ng-class="{suggested: event.pricing.suggested}">
-                        <h3 class="product">
-                            <i class="fa fa-ticket" aria-hidden="true"></i> {{product.name}}
+					<div class="row">
+            			<section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
+						<section class="tick feature 6u 12u$(medium) 12u$(small)">
+			              <div class="row">
+										<h3 class="title">{{event.pricing.name}}</h3>
+			              </div>
+	                <div class="row nopadding">
+	                  <section class="4u 12u$(small)" ng-repeat="product in event.pricing.products" ng-class="{suggested: event.pricing.suggested}">
+	                      <h3 class="product">
+	                      <i class="fa fa-ticket" aria-hidden="true"></i>
 
-                            </br>
-                            {{product.price}}
-                            <strike>{{product.speculativePrice}}</strike> €
-                            <small>*</small>
-                        </h3>
-                    </section>
-                </div>
+	                        {{product.name}}</br>
+	                        {{product.price}} <strike>{{product.speculativePrice}}</strike> € <small></small>
+	                      </h3>
+	                  </section>
+	                </div>
                 <div class="row">
-                    <section class="12u">
-                        <input type="button" value="Secure a seat now" ng-click="buy(event.register)"/>
-                        <h6 class="align-right price">* The price does not include VAT, if applicable.</h6>
-                    </section>
+                  <section class="12u 12u$(small)">
+                  <input type="button" value="&nbsp;Secure a seat now&nbsp;" ng-click="buy(event.register)" />
+                </section>
                 </div>
             </section>
             <section class="feature 3u 12u$(medium) 12u$(small)">&nbsp;</section>
@@ -690,40 +701,38 @@
                                                                aria-hidden="true"></i> and care
                     by <a target="_blank" href="http://www.latcraft.lv">Latvian Software Craftsmanship Community</a>.
 
-                </p>
-                <img src="images/team.jpg" style="width:90%; border: 2px solid black; "/>
-            </section>
-            <section class="6u 12u$(small)">
-                <h3>Follow Us</h3>
-                <ul class="icons">
-                    <li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span
-                            class="label">Facebook</span></a></li>
-                    <li><a href="https://www.linkedin.com/grp/home?gid=8371335" class="icon rounded fa-linkedin"><span
-                            class="label">LinkedIn</span></a></li>
-                </ul>
-                <h3>GitHub Shields</h3>
-                <ul style="list-style-type: none;">
-                    <li><a href="https://github.com/devternity/graphics/"><img src="shields/attending.svg"/></a></li>
-                    <li><a href="https://github.com/devternity/graphics/"><img src="shields/fellow.svg"/></a></li>
-                    <li><a href="https://github.com/devternity/graphics/"><img src="shields/speaker.svg"/></a></li>
-                    <li><a href="https://github.com/devternity/graphics/"><img src="shields/sponsor.svg"/></a></li>
-                    <li><a href="https://github.com/devternity/graphics/"><img src="shields/recommends.svg"/></a></li>
-                </ul>
-                <ul class="tabular">
-                    <li>
-                        <h3>Mail</h3>
-                        <a href="mailto:hello@devternity.com">hello@devternity.com</a>
-                    </li>
-                    <li>
-                        <h3>Phone</h3>
-                        (+371) 288 14 170
-                    </li>
-                </ul>
-            </section>
-        </div>
-    </div>
+              </p>
+              <img src="images/team.jpg" style="width:90%; border: 2px solid black; "/>
+						</section>
+						<section class="6u 12u$(small)">
+							<h3>Follow Us</h3>
+							<ul class="icons">
+								<li><a href="https://twitter.com/devternity" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/devternity" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/grp/home?gid=8371335" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.instagram.com/devternity/" class="icon rounded fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+              <h3>GitHub Shields</h3>
+              <ul style="list-style-type: none;">
+								<li><a href="https://github.com/devternity/graphics/"><img src="shields/attending.svg" /></a></li>
+								<li><a href="https://github.com/devternity/graphics/"><img src="shields/fellow.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/speaker.svg" /></a></li>
+								<li><a href="https://github.com/devternity/graphics/"><img src="shields/sponsor.svg" /></a></li>
+                <li><a href="https://github.com/devternity/graphics/"><img src="shields/recommends.svg" /></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Mail</h3>
+									<a href="mailto:hello@devternity.com">hello@devternity.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									(+371) 288 14 170
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
 
     <section id="discountOffer" data-remodal-id="offer" class="wrapper speech tickets align-center"
              ng-controller="DiscountController">
