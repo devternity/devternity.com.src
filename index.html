@@ -88,45 +88,42 @@
 
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
+	<!-- Styles for loading indicator -->
+	<style type="text/css">
+		#devternity-loading {
+			z-index: 10001;
+			position: fixed;
+		}
+
+		#devternity-loading div.loading-container {
+			background-color: #333333;
+			bottom: 0px;
+			left: 0px;
+			opacity: 1.0;
+			position: fixed;
+			right: 0px;
+			top: 0px;
+			z-index: 999999;
+		}
+
+		#devternity-loading div.messaging {
+			color: #FFFFFF;
+			left: 0px;
+			margin-top: -37px;
+			position: absolute;
+			right: 0px;
+			text-align: center;
+			top: 50%;
+		}
+
+	</style>
+	<!-- End loading indicator styles -->
+
 </head>
 
 <body class="landing">
 
 	<div id="devternity-loading">
-
-			<style type="text/css">
-				#devternity-loading {
-					z-index: 10000;
-					position: fixed;
-				}
-		
-				#devternity-loading div.loading-container {
-					background-color: #333333;
-					bottom: 0px;
-					left: 0px;
-					opacity: 1.0;
-					position: fixed;
-					right: 0px;
-					top: 0px;
-					z-index: 999999;
-				}
-		
-				#devternity-loading div.messaging {
-					color: #FFFFFF;
-					left: 0px;
-					margin-top: -37px;
-					position: absolute;
-					right: 0px;
-					text-align: center;
-					top: 50%;
-				}
-		
-				#devternity-loading p {
-					font-size: 18px;
-					line-height: 14px;
-					margin: 0px 0px 0px 0px;
-				}
-			</style>
 
 		<div class="loading-container">
 			<div class="messaging">

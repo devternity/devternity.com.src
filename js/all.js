@@ -954,7 +954,9 @@ devternity.controller('LandingPageController', function ($window, $http, $scope,
         return moment(body.date_iso).add(n, 'days').format("DD.MM.YYYY");
       });
 
-      $('#devternity-loading').remove();
+      $('#devternity-loading').fadeOut('slow',function(){
+          $('#devternity-loading').remove();
+      });
 
     });
 
