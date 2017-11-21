@@ -199,10 +199,7 @@
                       "long_bio": "Evelina is a machine learning researcher working in bioinformatics, trying to reverse-engineer cancer using computational methods. She is also an international conference speaker and enjoys giving talks on all topics data science. Currently, Evelina does most of her programming in R and F#, and got awarded the Microsoft MVP award for her work in the F# community. She originally started as a programmer but got interested in machine learning early on and did a mathematics PhD at the University of Cambridge, where she developed new statistical methods to analyze complex biomedical datasets.",
                       "title": "Practical Machine Learning with Functional Programming",
                       "description_backup": "<p>Machine Learning and Functional Programming are both very hot topics these days; they are also both rather intimidating for the beginner. In this workshop, we’ll take a 100% hands-on approach, and learn practical ideas from Machine Learning, by tackling real-world problems and implementing solutions in F#, in a functional style. In the process, you will see that once you get beyond the jargon, F# and Machine Learning are actually not all that complicated – and fit beautifully together. So if you are curious about what Machine Learning is about, and want to sharpen your developer skills, come with your laptop and… let’s hack together! What you should expect:</p><ul><li>no F# or Machine Learning prerequisites: complete beginners are totally welcome</li><li>a hands-on introduction to simple Machine Learning ideas you can use, by solving real-world problems</li><li>a practical introduction to writing effective F# code</li><li>lots of coding on fun problems!</li><li>you will need a laptop with an IDE or editor running F#; check www.fsharp.org for instructions on how to get setup.</li></ul>",
-                      "description": "<p>Welcome to the 'Practical Machine Learning with Functional Programming' workshop!</p>"
-                                   + "<p>This will be a hands-on workshop, so be sure to come with a laptop. You’ll also need to install F# with an editor of your choice. To get that, follow the instructions on http://fsharp.org/ for Mac, Windows or Linux. On Mac, we recommend VS Code or Xamarin Studio; on Windows, we recommend VS Code or Visual Studio.</p>"
-                                   + "<p>If you’re using Atom or VS Code, follow the installation instructions in 'Getting started' on the Ionide page (http://ionide.io/). You'll need to install mono (Mac and Linux) or F# (Windows) and Atom/VS Code itself. Then install the ionide-installer package.</p>"
-                                   + "<p>And that’s all, no previous experience with F# or machine learning is needed!</p>",
+                      "description": "<p>Welcome to the 'Practical Machine Learning with Functional Programming' workshop!</p><p>This will be a hands-on workshop, so be sure to come with a laptop. You’ll also need to install F# with an editor of your choice. To get that, follow the instructions on http://fsharp.org/ for Mac, Windows or Linux. On Mac, we recommend VS Code or Xamarin Studio; on Windows, we recommend VS Code or Visual Studio.</p><p>If you’re using Atom or VS Code, follow the installation instructions in 'Getting started' on the Ionide page (http://ionide.io/). You'll need to install mono (Mac and Linux) or F# (Windows) and Atom/VS Code itself. Then install the ionide-installer package.</p><p>And that’s all, no previous experience with F# or machine learning is needed!</p>",
                       "img": "images/evelina.png",
                       "presentation": "",
                       "sold_out": false,
@@ -249,31 +246,7 @@
                       "long_bio": "Passionate programmer with 7 years of experience. DDD, TDD and architecture are my main areas of interest. When I don’t program I run a DDD/architecture training, ride motorbike, ski or grow my beard. Also, here is my DZone MVB awarded blog: pillopl.github.io",
                       "title": "Building Event-Sourcing and CQRS Applications with Spring",
                       "description_backup": "<p>In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn: <ul><li>Why's and How's behind Event Sourcing and CQRS</li><li>How to rewrite a Domain-Driven-Design-like app to event-sourced model</li><li>How to leverage CQRS to eliminate accidental complexity in our domain model</li><li>How to solve problems caused by synchronizing read and write model</li><li>How to use messaging and Spring Stream to achieve loose coupling</li><li>...and much more!</li></ul></p>",
-                      "description": "<p>In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn:</p>"
-                                   + "<ul>"
-                                   + "<li>Why's and How's behind Event Sourcing and CQRS</li>"
-                                   + "<li>How to rewrite a Domain-Driven-Design-like app to event-sourced model with pure Java (almost)</li>"
-                                   + "<li>How to unit test objects backed by event sourcing</li>"
-                                   + "<li>How to leverage CQRS to eliminate accidental complexity in our domain model</li>"
-                                   + "<li>How to build simple Process Managers in a distributed system</li>"
-                                   + "<li>How to use messaging and Spring Cloud Stream to achieve loose coupling</li>"
-                                   + "<li>What are Kafka Streams and why they are awesome</li>"
-                                   + "<li>...and much more!</li>"
-                                   + "</ul>"
-                                   + "<p>Requirements:</p>"
-                                   + "<ol>"
-                                   + "<li>Java 8</li>"
-                                   + "<li>Maven</li>"
-                                   + "<li>Your best IDE</li>"
-                                   + "</ol>"
-                                   + "<p>Additional Requirements (not needed, but will help):</p>"
-                                   + "<ol><li>Kafka installed on your machine. It is really easy to start: https://kafka.apache.org/quickstart. Can be as docker image.</li></ol>"
-                                   + "<p>Before workshop please:<p>"
-                                   + "<ol>"
-                                   + "<li>git clone https://gitlab.com/pilloPl/devternity-event-sourcing.git</li>"
-                                   + "<li>git clone https://gitlab.com/pilloPl/devternity-event-listener.git</li>"
-                                   + "<li>mvn clean install (if does not work please drop me a line at jakub.pilimon@gmail.com)</li>"
-                                   + "<ol>",                      
+                      "description": "<p>In this hands-on workshop, together with Jakub you're gonna build a fully featured distributed system from a scratch using Spring Boot and Spring Cloud Stream. During the whole day we will learn:</p><ul><li>Why's and How's behind Event Sourcing and CQRS</li><li>How to rewrite a Domain-Driven-Design-like app to event-sourced model with pure Java (almost)</li><li>How to unit test objects backed by event sourcing</li><li>How to leverage CQRS to eliminate accidental complexity in our domain model</li><li>How to build simple Process Managers in a distributed system</li><li>How to use messaging and Spring Cloud Stream to achieve loose coupling</li><li>What are Kafka Streams and why they are awesome</li><li>...and much more!</li></ul><p>Requirements:</p><ol><li>Java 8</li><li>Maven</li><li>Your best IDE</li></ol><p>Additional Requirements (not needed, but will help):</p><ol><li>Kafka installed on your machine. It is really easy to start: https://kafka.apache.org/quickstart. Can be as docker image.</li></ol><p>Before workshop please:<p><ol><li>git clone https://gitlab.com/pilloPl/devternity-event-sourcing.git</li><li>git clone https://gitlab.com/pilloPl/devternity-event-listener.git</li><li>mvn clean install (if does not work please drop me a line at jakub.pilimon@gmail.com)</li><ol>",
                       "img": "images/jakubpilo.jpg",
                       "presentation": "",
                       "sold_out": false,
