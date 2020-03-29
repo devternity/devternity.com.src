@@ -313,7 +313,25 @@
                   "presentation": "",
                   "sold_out": false,                    
                   "video": ""
-              }
+              },
+              {
+                "product": "TOPOL",
+                "time": "9:00",
+                "endTime": "18:00",
+                "tags": ["fast teams", "architecture", "continuous delivery"],
+                "name": "Matthew Skelton",
+                "twitter": "matthewpskelton",
+                "type": "speech",
+                "country": "gb",
+                "bio": "Head of Consulting @ Conflux, Author of <a href=\"https://www.amazon.com/dp/1942788819\">Team Topologies</a>",
+                "title": "Fundamentals of Organization Dynamics with Team Topologies",
+                "brief_description": "Based on the book <b>\"Team Topologies: Organizing Business and Technology Teams for Fast Flow\"</b>, this training guides attendees through the many different aspects of modern organization design for software delivery. We look at the constraints imposed by Conway’s Law and how we can turn these into a strategic advantage, what happens when we take a team-first approach to organization design (and what this is a big win for every organization), how to simplify and enhance the intercommunication between teams, how to choose team types to accelerate and sustain safe, high-speed software delivery, how to evolve team structures depending on internal and external stimuli, and more.",
+                "description": "<h3>You will learn:</h3> <ul class=\"awsm\"><li>The 4 key team topologies, and the pros and cons of each</li><li>How to choose and mix team topologies</li><li>How to structure and organize teams for fast flow and Continuous Delivery</li><li>How to make Conway's Law work for you</li><li>How to evolve organizations and architecture</li><li>How to improve the intercommunication between teams with team APIs</li><li>... and much more!</li></ul><p>This practical workshop is for CTO/CIO and other leaders, Head of Department, software architects, systems architects, managers, team leaders and engineers.</p>",
+                "img": "images/skelton.png",
+                "presentation": "",
+                "sold_out": false,                    
+                "video": ""
+            }              
               ]
             },
             {
@@ -524,13 +542,18 @@
                 "presentation": "",
                 "video": ""
               },                     
-              {
-                "time": "14:50",
+              {                           
+                "time": "14:50",                            
+                "name": "Matthew Skelton",
                 "type": "speech",
-                "title": "pending",
-                "presentation": "",
-                "video": ""
-              },                                                                                                 
+                "twitter": "matthewpskelton",                      
+                "country": "gb",
+                "bio": "Head of Consulting @ Conflux, Author of <a href=\"https://www.amazon.com/dp/1942788819\">Team Topologies</a>",
+                "img": "images/skelton.png", 
+                "title": "Accidental Architects - How HR Designs Software Systems?",
+                "tags": ["team topologies", "architecture", "conway's law"],
+                "description": "Who designs the architecture of your software systems? Conway's Law suggests that HR may be strongly shaping software architecture by deciding how teams are composed and interrelate. Do you want HR designing your software architecture? Organization architecture and software system architecture need to be co-designed to avid friction from Conway's Law."
+              },                                                                                                
                       {
                           "type": "break",
                           "time": "15:40",
