@@ -331,7 +331,25 @@
                 "presentation": "",
                 "sold_out": false,                    
                 "video": ""
-            }              
+            },
+            {
+              "product": "AGILE_ARCHITECTURE",
+              "name": "Kevlin Henney",
+              "tags": ["agility", "architecture"],
+              "type": "speech",
+              "time": "9:00",
+              "endTime": "18:00",
+              "country": "gb",
+              "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
+              "long_bio": "Kevlin is an independent consultant and trainer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites, including Better Software, The Register, Application Development Advisor, Java Report and the C/C++ Users Journal. Kevlin is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of the 97 Things Every Programmer Should Know site and book.",
+              "title": "Agile Architecture",
+              "brief_description": "<b>This a new, re-designed edition of the course (2020).</b><p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p>",
+              "description": "<h3>What's inside?</h3> <p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
+              "img": "images/kevlin.png",
+              "presentation": "",
+              "sold_out": false,
+              "video": ""
+          }
               ]
             },
             {
@@ -568,22 +586,22 @@
                         "country": "pl",
                         "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
                         "img": "images/jnb_vec.png", 
-                        "title": "pending",
-                        "description": "Common mistakes when moving to microservices that I'll discuss and provide solutions for: No realistic architecture process (architecture decisions too rigid, or not taken; infra vs domain; architecture guild vs no cooperation, knowledge sharing ); QA thinks testing end-to-end is possible; Management wants to control deployment; Devs not DevOps; Not understanding event based architecture; Not using the tools properly (Kafka); Relying on cloud provider shitty tools; Error prone team setup; Pivots vs domain vs team composition."
-                      },                                        
+                        "title": "TBA",
+                        "description": "coming soon..."
+                      },
                       {
-                        "time": "16:00",
-                        "name": "Uwe Friedrichsen",
+                        "name": "Kevlin Henney",
                         "type": "speech",
-                        "twitter": "ufried",
-                        "country": "de",
-                        "bio": "CTO @ Codecentric, Fellow, Speaker, Nerd, Consultant",
-                        "title": "pending",
-                        "description": "DevOps - a simple term, but tons of confusion. Some think, it is about more collaboration between Dev and Ops. Others think, it is just about tools and automation. But in its core, DevOps is about accelerating the IT value chain. How long does it take to deliver a business idea to your customer using IT? How fast can you go - repeatedly and without compromising quality? But why should we speed up in the first place? Do we really need it? How fast is fast enough? How can we implement it? What else do we need to take into account? ... lots of questions if we follow this thought for a moment. In this session we will try to answer some of the questions. We will examine the drivers and goals behind DevOps and answer the question why we need to change. Then we will see how DevOps affects the way we think and act, what else is needed to really \"become DevOps\" and how all these building blocks are connected to each other. Finally, we will have a brief peek into the (likely) future of DevOps.",
-                        "img": "images/uwe.png",
+                        "twitter": "kevlinhenney",
+                        "time": "16:00",
+                        "country": "gb",
+                        "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
+                        "title": "TBA",
+                        "description": "coming soon...",
+                        "img": "images/vec_kevlin.png",
                         "presentation": "",
                         "video": ""
-                    },                      
+                    },
                     {
                       "time": "16:00",
                       "name": "Maxim Dorofeev",
