@@ -443,7 +443,7 @@
                       "twitter": "jakubpilimon",
                       "country": "pl",
                       "bio": "Principal Technologist @ VMWare, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
-                      "title": "Testing Done Right",
+                      "title": "Unit Testing Done Right",
                       "description": "Coming soon...",
                       "img": "images/pilo.png",
                       "presentation": "",
