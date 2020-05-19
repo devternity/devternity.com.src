@@ -577,7 +577,20 @@
                           "time": "15:40",
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
-                      },          
+                      },
+                      {
+                        "time": "16:00",
+                        "name": "Bert Jan Schrijver",
+                        "twitter": "bjschrijver",
+                        "type": "speech",
+                        "country": "nl",
+                        "bio": "CTO @ OpenValue, Netherlands JUG Lead",
+                        "title": "Mastering the Linux Command Line",
+                        "description": "TLDR: I'll show you everything you need to know about the Linux command line as a developer.",
+                        "img": "images/bert.png",
+                        "presentation": "",
+                        "video": ""
+                      },                        
                       {                           
                         "time": "16:00",                            
                         "name": "Jakub Nabrdalik",
@@ -601,20 +614,7 @@
                         "img": "images/vec_kevlin.png",
                         "presentation": "",
                         "video": ""
-                    },
-                    {
-                      "time": "16:00",
-                      "name": "Maxim Dorofeev",
-                      "twitter": "cartmendum",
-                      "type": "speech",
-                      "country": "ru",
-                      "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-                      "title": "pending",
-                      "description": "As soon as you become a team lead or manager, you immediately become responsible for making vague things certain. When you have no idea what exactly shall be done, you are asked how much it costs and how long it will take.  When you give an estimate and commit to delivering to your promise, scope creeps and you enjoy estimation hell again. In this talk, you will learn how to estimate without screwing things up. I will be as practical as possible and will share the real Excel-spreadsheet that implements a simple statistical model of project estimation so you can use it for your projects the next day.",
-                      "img": "images/max_vec.png",
-                      "presentation": "",
-                      "video": ""
-                    },                                                                                              
+                    },                                                                                            
                       {
                           "type": "break",
                           "time": "16:50",
