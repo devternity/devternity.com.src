@@ -417,18 +417,20 @@
                 },                    
                 {
                   "time": "10:30",
-                  "tags": ["databases", "internals", "deep-dive"],
-                  "name": "Kai Sassnowski",
-                  "twitter": "warsh33p",
+                  "tags": ["agility", "software delivery", "work organization"],
+                  "name": "Sandro Mancuso",
+                  "twitter": "sandromancuso",
                   "type": "speech",
-                  "country": "de",
-                  "bio": "Senior Software Engineer @ Wycomco, OSS contributor",
-                  "title": "Things Every Developer Needs to Know About Database Indexing",
-                  "description": "This talk dives deep into a topic that I believe developers don't know enough about: database indexing. There are four sections to this talk: - What's an index? * How to create an index? * Understanding the execution plan * Common pitfalls What's an index In the first part we will learn what an index actually is. And we're talking data structures. How is an index actually represented internally and what are the implications of that. This is important because it makes certain characteristics of indexes much easier to understand. ",
-                  "img": "images/kai.png",
+                  "country": "gb",
+                  "country_long": "United Kingdom",
+                  "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
+                  "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+                  "title": "Rights and Responsibilities of a Delivery Team",
+                  "description": "There is still a lot of frustration in software projects. Micro management, lack of autonomy, lack of trust, time pressure, personality clashes and lack of motivation are, among many, reasons for a general feeling of dissatisfaction. Behind all that there is an expectation mismatch between business, delivery teams, and individuals. This talk focus on the rights and responsibilities a delivery team should have in order to reduce frictions and increase the chances of a successful collaboration.",
+                  "img": "images/sandro_vec.png",
                   "presentation": "",
                   "video": ""
-                },                                                                                                                                                                                           
+                },
                     {
                         "type": "break",
                         "time": "11:20",
@@ -590,8 +592,22 @@
                         "img": "images/bert.png",
                         "presentation": "",
                         "video": ""
-                      },                        
-                      {                           
+                      },
+                      {
+                        "time": "16:00",
+                        "tags": ["databases", "internals", "deep-dive"],
+                        "name": "Kai Sassnowski",
+                        "twitter": "warsh33p",
+                        "type": "speech",
+                        "country": "de",
+                        "bio": "Senior Software Engineer @ Wycomco, OSS contributor",
+                        "title": "Things Every Developer Needs to Know About Database Indexing",
+                        "description": "This talk dives deep into a topic that I believe developers don't know enough about: database indexing. There are four sections to this talk: - What's an index? * How to create an index? * Understanding the execution plan * Common pitfalls What's an index In the first part we will learn what an index actually is. And we're talking data structures. How is an index actually represented internally and what are the implications of that. This is important because it makes certain characteristics of indexes much easier to understand. ",
+                        "img": "images/kai.png",
+                        "presentation": "",
+                        "video": ""
+                      },
+                      {
                         "time": "16:00",                            
                         "name": "Jakub Nabrdalik",
                         "type": "speech",
@@ -603,10 +619,16 @@
                         "description": "coming soon..."
                       },
                       {
+                          "type": "break",
+                          "time": "16:50",
+                          "title": "Coffee Break",
+                          "icon": "fa-coffee"
+                      },
+                      {
                         "name": "Kevlin Henney",
                         "type": "speech",
                         "twitter": "kevlinhenney",
-                        "time": "16:00",
+                        "time": "17:10",
                         "country": "gb",
                         "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
                         "title": "TBA",
@@ -614,24 +636,7 @@
                         "img": "images/vec_kevlin.png",
                         "presentation": "",
                         "video": ""
-                    },                                                                                            
-                      {
-                          "type": "break",
-                          "time": "16:50",
-                          "title": "Coffee Break",
-                          "icon": "fa-coffee"
-                      },
-                      {                           
-                        "time": "17:10",                            
-                        "name": "J.B. Rainsberger",
-                        "type": "speech",
-                        "twitter": "jbrains",                      
-                        "country": "ca",
-                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
-                        "img": "images/jb_vec.png",
-                        "title": "pending",
-                        "description": "A well-balanced programmer feels comfortable dealing with designing software, managing projects, and working with people. Companies seem to want to hire \"the best\", but well-balanced programmers relatively rare. Although many programmers feel confident arguing about algorithms, modularity, and scalability in design sessions, they would stand out from their peers if they also had incredible habits for managing their work, knew how to negotiate features with product owners, had intelligent conversations with project managers about the risks in their project, and understood what lies behind the irrationality of the people and systems around them. Sadly, most programmers don't appreciate the value of these skills. Others don't know how to get started learning them. I started programming computers because people are messy! I'd like to share a curated collection of concepts for you explore that will help you become irresistibly valuable to your employer or clients. I plan to share the design principles and programming techniques that amplified my skills the most over the last 20 years. In addition, I'll describe how I learned the key non-programming concepts, techniques, and approaches that have endeared me to fellow programmers, managers, and clients. I offer you a very practical approach to issues like influencing peers, negotiating with stakeholders, and adopting new ways of working safely. I'll help you start to build a personal work system that will free your mind to do your best work. I know how this might sound. I promise to share concrete techniques that you can begin applying right away. Of course, these techniques aren't magic, so you'll have to read some more and practise on your own, but you will know how to get started right away on becoming the well-balanced programmer that every manager and co-worker will love to have on their team."
-                      },     
+                    },       
                       {                           
                         "time": "17:10",                            
                         "name": "Sergei Egorov",

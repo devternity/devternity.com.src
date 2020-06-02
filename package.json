@@ -5,11 +5,12 @@
     "min": "gulp min",
     "mincss": "gulp purgecss",
     "minim": "gulp imagemin",
-    "start": "npx -p node@8 -- gulp"
+    "start": "npx -p node@8 -- npx gulp"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
