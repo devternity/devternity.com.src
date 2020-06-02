@@ -370,7 +370,7 @@
                     {
                       "name": "Hadi Hariri",
                       "type": "speech",
-                      "tags": ["programmer's life", "trends", "making choices"],
+                      "tags": ["programmer's life", "trends", "technical decisions"],
                       "twitter": "hhariri",
                       "time": "9:15",
                       "country": "es",
