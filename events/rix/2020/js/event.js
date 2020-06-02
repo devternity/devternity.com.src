@@ -584,6 +584,7 @@
                         "time": "16:00",
                         "name": "Bert Jan Schrijver",
                         "twitter": "bjschrijver",
+                        "tags": ["no slides", "live show", "tips&tricks"],
                         "type": "speech",
                         "country": "nl",
                         "bio": "CTO @ OpenValue, Netherlands JUG Lead",
