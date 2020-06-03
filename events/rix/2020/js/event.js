@@ -324,9 +324,9 @@
                 "type": "speech",
                 "country": "gb",
                 "bio": "Head of Consulting @ Conflux, Author of <a href=\"https://www.amazon.com/dp/1942788819\">Team Topologies</a>",
-                "title": "Fundamentals of Organization Dynamics with Team Topologies",
-                "brief_description": "Based on the book <b>\"Team Topologies: Organizing Business and Technology Teams for Fast Flow\"</b>, this training guides attendees through the many different aspects of modern organization design for software delivery. We look at the constraints imposed by Conway’s Law and how we can turn these into a strategic advantage, what happens when we take a team-first approach to organization design (and what this is a big win for every organization), how to simplify and enhance the intercommunication between teams, how to choose team types to accelerate and sustain safe, high-speed software delivery, how to evolve team structures depending on internal and external stimuli, and more.",
-                "description": "<h3>You will learn:</h3> <ul class=\"awsm\"><li>The 4 key team topologies, and the pros and cons of each</li><li>How to choose and mix team topologies</li><li>How to structure and organize teams for fast flow and Continuous Delivery</li><li>How to make Conway's Law work for you</li><li>How to evolve organizations and architecture</li><li>How to improve the intercommunication between teams with team APIs</li><li>... and much more!</li></ul><p>This practical workshop is for CTO/CIO and other leaders, Head of Department, software architects, systems architects, managers, team leaders and engineers.</p>",
+                "title": "Team Topologies Fundamentals",
+                "brief_description": "Effective software teams are essential for any organization to deliver value continuously and sustainably. But to achieve fast and continuous delivery, teams must be organized in a certain way. <p>Many companies grow ad-hoc. Others blindly copy the “Spotify Model” of team design. Not surprisingly, with every developer added, they face a significant decline in performance. </p>To stay fast, the team structure must match the required software architecture; teams must be loosely coupled, but highly cohesive; teams’ cognitive load must be kept under control. In this training, you will learn the principles and best practices for organizing high-performance teams and organizations. After the training, you’ll be able to identify, explain, and fix bottlenecks that prevent your organization and team from being fast.",
+                "description": "<h3>You will learn:</h3> <ul class=\"awsm\"><li>How to organize software development for fast flow.</li><li>How to organize effective DevOps process.</li><li>How to keep an organization fast and agile as it grows.</li><li>How to use Conway’s Law as a driver for choosing the right architecture and team structure.</li><li>How and when to use four team topologies (Stream-aligned team, Enabling team, Subsystem team, Platform team).</li><li>How and when to use three interaction modes (Collaboration, X-as-a-Service and Facilitating)</li><li>... and much more!</li></ul><p>This practical workshop is for team leaders, architects, senior developers, engineering managers, and CTO/CIO-level leaders.</p>",
                 "img": "images/skelton.png",
                 "presentation": "",
                 "sold_out": false,                    
@@ -349,7 +349,26 @@
               "presentation": "",
               "sold_out": false,
               "video": ""
-          }
+          },
+          {
+            "product": "CRAFTED_DESIGN",
+            "name": "Sandro Mancuso",
+            "type": "speech",
+            "twitter": "sandromancuso",                      
+            "time": "9:00",
+            "endTime": "18:00",                      
+            "tags": ["clean code", "code design", "refactoring"],
+            "country": "gb",
+            "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
+            "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+            "title": "Crafted Design",
+            "brief_description": "Crafted Design is for experienced developers who want to get better at designing well-crafted solutions. This training addresses design from the most micro level (via TDD) all the way up to defining microservices by analysing business requirements. <p>After the workshop you’ll be able to design software that is responsive to changing requirements and new functionalities, avoiding some of the pitfalls that lead to legacy code.</p>",
+            "description": "<h3>What you will learn?</h3> <ul class=\"awsm\"><li>Drive out a flexible design at different levels, from details of code all the way up to microservices.<li>Build software that is not bound to a specific technology or framework by keeping them at the boundaries of your system<li> Express your business domain in every facet of your application, not just methods and classes<li>Keep your design clean as your application grows and requirements change<li>Let your architecture emerge, rather than designing a rigid and unchangeable structure up-front<li>Use TDD as a design tool, learning about the two main TDD styles (Classicist and Outside-In) and how they differ when driving the design of your code<li>...and much more!</li></ul><p><b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
+            "img": "images/sandro_vec.png",
+            "presentation": "",
+            "sold_out_soon": true,
+            "video": ""
+        }             
               ]
             },
             {
@@ -368,19 +387,19 @@
                         "icon": "fa-bullhorn"
                     },
                     {
-                      "name": "Hadi Hariri",
+                      "name": "Kevlin Henney",
                       "type": "speech",
-                      "tags": ["programmer's life", "trends", "technical decisions"],
-                      "twitter": "hhariri",
+                      "tags": ["simplicity", "yagni", "architecture"],
+                      "twitter": "kevlinhenney",
                       "time": "9:15",
-                      "country": "es",
-                      "bio": "VP of Developer Advocacy @ JetBrains",
-                      "title": "The Silver Bullet Syndrome",
-                      "description": "We love our silver bullets don’t we? Constantly chasing the dream that the next big thing will solve all our past problems. It doesn’t matter if it’s a language, framework, platform or library, we’re out there chasing it. Why? Well because it’s going to solve our needs, it’s going to solve the business needs. Well supposedly it will. And how much is it going to cost? Not that much, especially if we’re not the ones paying the bills. It’s about time we look at the hard facts and ask those difficult questions. Are we really looking for a silver bullet? Why are we constantly riding the technology bandwagon? Where is the churn going to take us? And at what cost?",
-                      "img": "images/hadi.png",
+                      "country": "gb",
+                      "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
+                      "title": "Decremental Development",
+                      "description": "Less is more. Less is also more effort. Is it worth it? We keep talking about incremental development, but we don't talk enough about decremental development. When we talk about refactoring, we often speak optimistically and vaguely about improving code and cleaner code. In the real world the main activity of any significant clean-up is throwing out and reducing. The less code you have, the less you will have to optimise, to secure, to debug, to rework, etc.; the more of a codebase you will be able to fit in your head and understand and reason about. What can you remove? Dead code, speculative generalisations and needless abstractions. What can you reduce? Accidental complexity, verbosity and first-draft thinking now that we know better. Welcome to the world of decremental development.",
+                      "img": "images/vec_kevlin.png",
                       "presentation": "",
                       "video": ""
-                  },                      
+                  },                                          
                     {
                         "type": "break",
                         "time": "10:10",
@@ -612,12 +631,13 @@
                         "time": "16:00",                            
                         "name": "Jakub Nabrdalik",
                         "type": "speech",
+                        "tags": ["behavior-driven development", "understanding requirements"],
                         "twitter": "jnabrdalik",                      
                         "country": "pl",
                         "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
                         "img": "images/jnb_vec.png", 
-                        "title": "TBA",
-                        "description": "coming soon..."
+                        "title": "User Stories Considered Harmful",
+                        "description": "Long time ago there was a role of a business analyst, who would discover and gather client requirements, then together with a system analysts, write them down. Next, they would meet an architect, where they would analyze the impact of those requirements on the architecture, and impact of architecture on business opportunities. This collaboration would provide new ideas for the business, but most of all, would create the analysis that went to developers. Then there were eXtreme Programming (XP). Then came Scrum and Kanban with Scrum Masters and Product Owners. Neither of them had any experience with XP, but since they loathed the old world, they have fired all the system and business analysts. And so, two working methods of requirement analysis were replaced by a single ineffective meeting called “grooming”, where a seven plus/minus three people, without any preparation, try to estimate something that nobody took time to understand. I’d like to show you how we came to this point, why the current situation puts developers in jail, and how to solve this madness."
                       },
                       {
                           "type": "break",
@@ -626,18 +646,19 @@
                           "icon": "fa-coffee"
                       },
                       {
-                        "name": "Kevlin Henney",
+                        "name": "Hadi Hariri",
                         "type": "speech",
-                        "twitter": "kevlinhenney",
+                        "tags": ["programmer's life", "trends", "technical decisions"],
+                        "twitter": "hhariri",
                         "time": "17:10",
-                        "country": "gb",
-                        "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
-                        "title": "TBA",
-                        "description": "coming soon...",
-                        "img": "images/vec_kevlin.png",
+                        "country": "es",
+                        "bio": "VP of Developer Advocacy @ JetBrains",
+                        "title": "The Silver Bullet Syndrome",
+                        "description": "We love our silver bullets don’t we? Constantly chasing the dream that the next big thing will solve all our past problems. It doesn’t matter if it’s a language, framework, platform or library, we’re out there chasing it. Why? Well because it’s going to solve our needs, it’s going to solve the business needs. Well supposedly it will. And how much is it going to cost? Not that much, especially if we’re not the ones paying the bills. It’s about time we look at the hard facts and ask those difficult questions. Are we really looking for a silver bullet? Why are we constantly riding the technology bandwagon? Where is the churn going to take us? And at what cost?",
+                        "img": "images/hadi.png",
                         "presentation": "",
                         "video": ""
-                    },       
+                    },        
                       {                           
                         "time": "17:10",                            
                         "name": "Sergei Egorov",
