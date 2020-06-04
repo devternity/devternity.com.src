@@ -351,24 +351,24 @@
               "video": ""
           },
           {
-            "product": "CRAFTED_DESIGN",
+            "product": "CRAFTING_CODE",
             "name": "Sandro Mancuso",
             "type": "speech",
             "twitter": "sandromancuso",                      
             "time": "9:00",
             "endTime": "18:00",                      
-            "tags": ["clean code", "code design", "refactoring"],
+            "tags": ["clean-code", "tdd", "refactoring"],
             "country": "gb",
             "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
             "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
-            "title": "Crafted Design",
-            "brief_description": "Crafted Design is for experienced developers who want to get better at designing well-crafted solutions. This training addresses design from the most micro level (via TDD) all the way up to defining microservices by analysing business requirements. <p>After the workshop you’ll be able to design software that is responsive to changing requirements and new functionalities, avoiding some of the pitfalls that lead to legacy code.</p>",
-            "description": "<h3>What you will learn?</h3> <ul class=\"awsm\"><li>Drive out a flexible design at different levels, from details of code all the way up to microservices.<li>Build software that is not bound to a specific technology or framework by keeping them at the boundaries of your system<li> Express your business domain in every facet of your application, not just methods and classes<li>Keep your design clean as your application grows and requirements change<li>Let your architecture emerge, rather than designing a rigid and unchangeable structure up-front<li>Use TDD as a design tool, learning about the two main TDD styles (Classicist and Outside-In) and how they differ when driving the design of your code<li>...and much more!</li></ul><p><b>The course is fully hands-on and developers will be writing a lot of code.</b></p>",
+            "title": "Crafting Code",
+            "brief_description": "This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace.",
+            "description": "<h3>After the training, you will:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Know how to write clean code that is easy to understand and maintain</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Become more proficient in Test-Driven Development: using tests to design and build your code base</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Focus your tests and production code according to business requirements using Outside-In TDD</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand design principles that lead to clean code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b>",
             "img": "images/sandro_vec.png",
             "presentation": "",
             "sold_out_soon": true,
             "video": ""
-        }             
+        }      
               ]
             },
             {
