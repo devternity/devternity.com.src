@@ -1210,9 +1210,11 @@ form.subscribe input[type='submit'] {
 
 	#banner {
     background-color: black;
-		color: #ffffff;
-		padding-top: 16em;
-		text-align: center;
+	color: #ffffff;
+	padding-top: 16em;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
     height: 800px;
 	}
 
@@ -1227,15 +1229,12 @@ form.subscribe input[type='submit'] {
     }  
 
     #banner #video {
-      overflow: hidden;
       position: absolute;
       display: block;
       top: 0px;
       right: 0px;
       min-width: 100%;
-      height: 800px;
-      width: auto;
-      height: 800px;
+      min-height: 800px;
       z-index: 10;
       opacity: 0.4;    
     }
