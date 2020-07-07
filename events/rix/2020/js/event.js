@@ -239,7 +239,7 @@
         "program": [
             {
                 "event": "workshops",
-                "date_iso": "2020-12-04",
+                "date_iso": "2021-12-11",
                 "schedule": [
                   {
                     "product": "DNEAL",
@@ -325,7 +325,7 @@
               "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
               "long_bio": "Kevlin is an independent consultant and trainer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites, including Better Software, The Register, Application Development Advisor, Java Report and the C/C++ Users Journal. Kevlin is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of the 97 Things Every Programmer Should Know site and book.",
               "title": "Agile Architecture",
-              "brief_description": "<b>This a new, re-designed edition of the course (1020).</b><p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p>",
+              "brief_description": "<b>This a new, re-designed edition of the course (2021).</b><p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p>",
               "description": "<h3>What's inside?</h3> <p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
               "img": "images/kevlin.png",
               "presentation": "",
@@ -350,12 +350,31 @@
             "presentation": "",
             "sold_out_soon": true,
             "video": ""
-        }      
+        },
+        {
+          "product": "VENKAT",
+          "name": "Venkat Subramaniam",
+          "type": "speech",
+          "twitter": "venkat_s",
+          "time": "9:00",
+          "endTime": "18:00",
+          "tags": ["architecture", "code design principles", "code quality"],
+          "country": "us",
+          "bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+          "long_bio": "Founder @ Agile Developer, Author of <a href=\"https://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/\">Practices of an Agile Developer</a>, <a href=\"https://www.amazon.com/Programming-Concurrency-JVM-Mastering-Synchronization-ebook/dp/B00A32NZEI/\">Programming Concurrency on the JVM</a>, <a href=\"https://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467/\">Functional Programming in Java</a>",
+          "title": "Evolutionary Design",
+          "brief_description": "A good design is critical for success with agile development. That does not mean a big up-front design. The design has to be evolutionary. However, the design you evolve must be extensible and maintainable. After all, you can’t be agile if your design sucks. <p><strong>In this training, we will address what evolutionary design is, and will delve into principles and practices that can help realize an effective evolutionary design.</strong></p>",
+          "description": "<h3>What's inside?</h3> <ul class=\"awsm\"><li>Why Evolutionary?</li><li>How to create Evolutionary Architecture?</li><li>Refactoring design and architecture</li><li>Code Quality and its impact on Evolutionary Design</li><li>Good coding practices for Evolutionary Design</li><li>Test-Driven Design</li><li>Engineering practices to succeed in Evolutionary Design</li>...and much more!</li></ul> <p>The course has a good balance of interactive lectures and hands-on exercises. The attendees are expected to pair-up and work on the lab exercises.</p>",
+          "img": "images/venk_vec.png",
+          "presentation": "",
+          "sold_out_soon": false,
+          "video": ""
+          }
               ]
             },
             {
                 "event": "keynotes",
-                "date_iso": "2020-12-03",
+                "date_iso": "2021-12-10",
                 "schedule": [
                     {
                         "type": "start",
