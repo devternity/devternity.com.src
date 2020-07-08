@@ -15,30 +15,30 @@
 			},
 			xlarge: {
 				media: '(max-width: 1680px)',
-				href: 'css/style-xlarge.css?p',
+				href: 'css/style-xlarge.css?pp',
 				containers: 1200
 			},
 			large: {
 				media: '(max-width: 1280px)',
-				href: 'css/style-large.css?p',
+				href: 'css/style-large.css?pp',
 				containers: 960,
 				grid: { gutters: ['1.5em', 0] },
 				viewport: { scalable: false }
 			},
 			medium: {
 				media: '(max-width: 980px)',
-				href: 'css/style-medium.css?p',
+				href: 'css/style-medium.css?pp',
 				containers: '90%'
 			},
 			small: {
 				media: '(max-width: 736px)',
-				href: 'css/style-small.css?p',
+				href: 'css/style-small.css?pp',
 				containers: '90%',
 				grid: { gutters: ['1.25em', 0] }
 			},
 			xsmall: {
 				media: '(max-width: 480px)',
-				href: 'css/style-xsmall.css?p',
+				href: 'css/style-xsmall.css?pp',
 			}
 		},
 		plugins: {
