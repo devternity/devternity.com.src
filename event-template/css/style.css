@@ -1433,3 +1433,12 @@ img.grayscale {
 #venue a:hover {
 	background-color: rgba(255, 255, 255, 0.2);
 }
+
+a.outlined {
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	font-weight: 300;
+}
+a.outlined:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
