@@ -187,9 +187,9 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
               a(href="//itconference.top" target="_blank" alt="IT Conference top" rel="noopener"): strong the top 3
               |  international software development conference in Europe. 
             h2
-            p We focus on the core skills paramount to your success – coding, architecture and leadership.
+            p We focus on the core skills paramount to your success – coding, architecture, and leadership.
             h2
-            p Start preparing for the role of software architect, engineering leader or CTO today.
+            p Start preparing for the role of a software architect, engineering leader, or CTO today.
             h2
               p(style="text-transform: uppercase") it's a must-see.
             p(style="color: #ffdd57")
@@ -360,7 +360,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             i.fa.fa-heart(style="color: red" aria-hidden="true") 
             |  Tickets
           h2
-          p This is limited offer. Grab your ticket today.
+          p This is a limited offer. Grab your ticket today.
         div.row
           section(class="tick feature 12u 12u$(medium) 12u$(small)")
             div.row
@@ -411,10 +411,23 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                           |  (since #{sponsor.since})
                       p !{sponsor.info}
                   br
-            p.align-center(style="margin-top: 100px") Want to increase your company's visibility?
+            p.align-center(style="margin-top: 100px") Want to boost your company's visibility?
               br
               br
-              a.button.pulse(style="padding: 0 1em" href=`mailto:${data.contactEmail}?subject=Sponsorship`) Become a sponsor                      
+              a.button.pulse(style="padding: 0 1em" href=`mailto:${data.contactEmail}?subject=Sponsorship`) Become a sponsor
+    section.wrapper#venue.align-center
+      .container 
+        h1 Venue 
+        p 
+          strong The National Library of Latvia
+          |  also known as Castle of Light is a stunning national cultural institution, that plays an important role in the development of Latvia's information society, research, and education.
+        p With a stunning view on Riga Old Town and river Daugava, Castle of Light is designed from scratch specifically for unforgettable choral, chamber, and acoustic music experience, and is a perfect location for DevTernity.
+        p
+          i.fas.fa-map-marker-alt(aria-hidden)
+          |  #{data.venue_name}, #{data.venue_address}, #{data.city}, #{data.country}
+          br
+          br
+          a.button(href=data.venue_map target="_blank" aria-label="Venue location on Google maps" rel="noopener nofollow") Get directions              
     footer#footer
       div.container
         div.row
@@ -425,12 +438,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
             p
               i.fa.fa-heart(style="color: red" aria-hidden="true")
               |  DevTernity is organised with love and care by 
-              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team" rel="nofollow noopener") passionate software craftspeople from Latvia, Estonia and Netherlands. 
-            h3 Location / Venue
-            p 
-              a(href="https://www.google.lv/maps/place/DevTernity+Conference/@56.9397819,24.0966023,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.939779!4d24.098791" target="_blank" aria-label="Venue location on Google maps" rel="noopener nofollow")
-                i.fas.fa-map-marker-alt(aria-hidden)
-              |  #{data.venue_name}, #{data.venue_address} 
+              strong: a(target="_blank" href="https://medium.com/@eduardsi/my-team-58f99b215be8" alt="Our team" rel="nofollow noopener") passionate software craftspeople from Latvia, Estonia, and Netherlands. 
           section(class="6u 12u$(small)")
             h3 Contacts
             ul.icons
@@ -440,15 +448,7 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                     i(class=`fab fa-${social}` aria-hidden)                    
               li 
                 a(href=`mailto:${data.contactEmail}` aria-label=`email link`)
-                  i(class=`far fa-envelope` aria-hidden)              
-            ul.tabular
-              li
-                form.subscribe(ng-submit="onSubscribe()")
-                  h3
-                    label(for="subscriptionEmail") &nbsp;
-                  input(type="email" ng-model="subscriber" placeholder="<email address>" id="subscriptionEmail")
-                  input(type="submit" value="Subscribe for updates") 
-                  | &nbsp; {{subscribeMessage}}               
+                  i(class=`far fa-envelope` aria-hidden)
 
       // section#exitOffer(data-remodal-id="exitOffer")
         form(ng-controller="ExitOfferController" name="exitOffer")
