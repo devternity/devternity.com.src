@@ -3,6 +3,7 @@
         "theme": "DevTernity 2021",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_21",
+        "facebookEvent": "https://www.facebook.com/events/240371927133227",
         "desc": "Turning developers into architects and engineering leaders.",
         "month": "December 2021",
         "date": "10–11 December 2021",
