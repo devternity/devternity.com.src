@@ -650,6 +650,18 @@
                           "icon": "fa-coffee"
                       },
                       {
+                        "time": "17:10",
+                        "name": "J.B. Rainsberger",
+                        "type": "speech",
+                        "twitter": "jbrains",
+                        "country": "ca",
+                        "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+                        "img": "images/jb_vec.png",
+                        "title": "Integrated Tests Are A Scam",
+                        "description": "Integrated tests are a scam. You’re probably writing 2-5% of the integrated tests you need to test thoroughly. You’re probably duplicating unit tests all over the place. Your integrated tests probably duplicate each other all over the place. When an integrated test fails, who knows what’s broken? Integrated tests probably do you more harm than good. Learn the two-pronged attack that solves the problem: collaboration tests and contract tests.",
+                        "tags": ["testing", "test-driven-development", "software design"]
+                      },
+                      {
                         "name": "Hadi Hariri",
                         "type": "speech",
                         "tags": ["programmer's life", "trends", "technical decisions"],
@@ -662,24 +674,19 @@
                         "img": "images/hadi.png",
                         "presentation": "",
                         "video": ""
-                    },                                                                                                                                                                                                          
-                    {                           
-                      "time": "17:10",
-                      "title": "pending",
-                      "type": "speech"
-                    },                         
+                    },
                       {                           
                         "time": "17:10",
                         "title": "pending",
                         "type": "speech"
-                      },                                                                                  
+                      },
                     {
                         "type": "break",
                         "time": "18:00",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
-                    {                           
+                    {
                       "time": "18:20",                            
                       "name": "Scott Hanselman",
                       "type": "speech",
