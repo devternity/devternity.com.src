@@ -430,8 +430,8 @@
                     "time": "10:30",
                     "country": "us",
                     "bio": "Senior Software Engineer @ GitHub, Creator @ exercism.io, Co-author of <a href=\"https://www.sandimetz.com/99bottles\">99 Bottles of OOP</a>",
-                    "title": "Refactoring with Exuberance",
-                    "description": "When is it okay to build an orbital laser to destroy an ant-hill? Many cry \"overkill\" when design principles are applied to trivial problems. And for good reason: in the context of work, excessive embellishment gets us into trouble. Complexity costs us time and money. This talk explores how stepping outside of the realm of work and applying outrageous engineering practices to toy problems can deepen our understanding of the trade-offs that we make. Comically simple problems provide the perfect ground for developing actionable heuristics which can be applied to those monstrous complexities that we face in the real world.",
+                    "title": "One Small Step",
+                    "description": "Refactoring sometimes devolves into an appalling mess. You're chasing a broken test suite, and every change just makes it worse. An even more insidious antipattern is the slow, perfectly controlled process culminating in dreadful design. This talk presents an end-to-end refactoring that demonstrates simple strategies to avoid such misadventures.",
                     "img": "images/katrina.png",
                     "presentation": "",
                     "video": ""
