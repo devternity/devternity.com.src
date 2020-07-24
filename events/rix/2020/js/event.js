@@ -126,7 +126,7 @@
         "socials": {
           "twitter": "https://twitter.com/devternity",
           "facebook": "https://www.facebook.com/devternity",
-          "linkedin": "http://go.devternity.com/linkedin",
+          "linkedin": "https://www.linkedin.com/groups/8371335/",
           "instagram": "https://www.instagram.com/devternity",
           "youtube": "https://youtube.com/c/DevTernity",
           "wikipedia-w": "https://en.wikipedia.org/wiki/DevTernity_Conference"
