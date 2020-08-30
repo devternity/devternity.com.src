@@ -1414,6 +1414,11 @@ img.grayscale {
 	background-blend-mode: darken;
 }
 
+@media screen and (min-width: 768px) {
+	#venue {
+	  background-attachment: fixed !important; } }
+  
+
 #venue strong, #venue h1 {
 	color: white;
 }
