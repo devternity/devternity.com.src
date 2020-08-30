@@ -86,3 +86,7 @@
 #venue p {
 	font-size: 1em;
 }		
+
+#venue {
+	background-attachment: fixed !important;
+}
