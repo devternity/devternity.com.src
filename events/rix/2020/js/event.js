@@ -176,9 +176,15 @@
               {
                 "logo": "devchampions.png",
                 "since": "2015",
-                "link": "http://www.devchampions.com/",
+                "link": "https://www.devchampions.com/",
                 "info": "<p>Do you believe that face-to-face interaction is the best way to learn? We believe it, too. At DevChampions, we offer the highest quality training for software developers. We specialize, but are not limited to engineering practices, software architecture, automation and soft skills.</p>"
-              }                                            
+              },
+              {
+                "logo": "innogames.png",
+                "since": "2019",
+                "link": "https://www.innogames.com/career/",
+                "info": "<p>InnoGames is Germany’s leading game developer & publisher, and a certified Great Place to Work®. We are best known for Forge of Empires, Elvenar and Tribal Wars. Join our awesome international team in Hamburg!</p>"
+              }              
             ]
         },
         "silver": {
