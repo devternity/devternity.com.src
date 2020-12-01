@@ -291,25 +291,6 @@ html(lang="en" ng-app="devternity" ng-controller="LandingPageController" class="
                 em Our instructors are here to deliver full-day workshops from 9:00 to 18:00. Choose one that you like more:
             else
               p Coming soon...
-
-
-                //- h5 
-                //-   span
-                //-     if speaker.tags
-                //-       if speaker.sold_out
-                //-         span.tag.sold SOLD OUT
-                //-         | 
-                //-       if speaker.sold_out_soon
-                //-         span.tag.sold 
-                //-           i.fab.fa-hotjar
-                //-           |  FEW TICKETS LEFT
-                //-         | 
-                //-       each tag, index in speaker.tags
-                //-         span.tag ##{tag}
-                //-         if index != speaker.tags.length - 1 
-                //-           |  
-
-
           each speaker, index in data.workshops
             .row
               section(class="feature 12u 12u$(small) align-left")

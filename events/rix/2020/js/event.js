@@ -681,11 +681,21 @@
                         "presentation": "",
                         "video": ""
                     },
-                      {                           
-                        "time": "17:10",
-                        "title": "pending",
-                        "type": "speech"
-                      },
+                    {
+                      "time": "17:10",
+                      "tags": ["architecture", "principles", "lessons learned"],
+                      "name": "Stefan Tilkov",
+                      "type": "speech",
+                      "twitter": "stilkov",
+                      "country": "de",
+                      "bio": "Co-founder & Software Architect @ innoQ, Author of <a href=\"https://www.amazon.com/REST-HTTP-Stefan-Tilkov/dp/3864901200/\">REST and HTTP</a>",
+                      "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
+                      "title": "\"Good Enough\" Architecture",
+                      "description": "In this session, we’ll take a look at some of the ways we can determine whether the development efforts we’re undertaking suffer from too much or too little focus on architecture. We’ll examine a number of real-world examples that are intended to inspire either admiration or terror, and try to find some recipes of how we can get more of the former and less of the latter in our own projects.",
+                      "img": "images/tilkov_vec.png",
+                      "presentation": "",
+                      "video": ""
+                },   
                     {
                         "type": "break",
                         "time": "18:00",
