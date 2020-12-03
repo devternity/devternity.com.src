@@ -416,14 +416,14 @@
                     },
                     {
                       "time": "10:30",
-                      "tags": ["architecture", "microservices", "protocols"],
+                      "tags": ["live coding", "DDD", ".net examples"],
                       "name": "Jimmy Bogard",
                       "type": "speech",
                       "country": "us",
                       "twitter": "jbogard",
                       "bio": "Chief Architect @ Headspring, Microsoft MVP, Creator of <a href=\"https://github.com/AutoMapper/AutoMapper\">AutoMapper</a>",
-                      "title": "Effective Microservice Communication and Conversation Patterns",
-                      "description": "Orchestration or Choreography? Sagas or process manager? REST, RPC or Events? Are we just making this all up as we go along? Once we move away from a single process to many services and processes, we immediately hit the problem that our services need to communicate with each other. The architect mandated REST! But then nothing worked in production. Then came events! And nothing ever completed. In this talk we'll look at the problem from a holistic perspective - take the fundamental property of autonomy for any microservice-based architecture, and design how services should communicate so that they can still achieve their purpose in the world. We'll cover basic communication patterns, where we run into problems with them, and how advanced conversational patterns can help. Finally, we'll look at some real-world scenarios for designing complex coordination and where conversation patterns can retain our autonomy and loose coupling.",
+                      "title": "Domain-Driven Refactoring",
+                      "description": "Books, workshops, storming and more, all build up an idealized domain model. All describe great techniques for domain-driven greenfield applications. But what about the code we have? How can we take what's already built, and move it towards a better, more cohesive design? In this session, we'll look at anemic, procedural, boring code and examine code smells that can point us in the right direction. We'll also look at standard design patterns for more complex behaviors and models, and how to recognize when (and when not) to apply them. Finally, we'll cover how to safely apply refactoring techniques to achieve our domain-driven model nirvana.",
                       "img": "images/jimbo.png",
                       "presentation": "",
                       "video": ""
