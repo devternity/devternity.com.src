@@ -560,18 +560,19 @@
                 }, 
                 {
                   "time": "14:50",
-                  "tags": ["leadership", "soft skills", "people"],
-                  "name": "David Neal",
-                  "twitter": "reverentgeek",
+                  "tags": ["containers", "docker", "live-coding"],
+                  "name": "Liz Rice",
                   "type": "speech",
-                  "country": "us",
-                  "bio": "Senior Developer Advocate @ Octa, Microsoft MVP",
-                  "title": "Leadership Guide for the Reluctant Leader",
-                  "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
-                  "img": "images/dneal.png",
+                  "twitter": "lizrice",
+                  "country": "gb",
+                  "bio": "Chair @ Cloud Native Computing Foundation, VP OSS Engineering @ Aqua Security, Author of <a href=\"https://www.amazon.com/Container-Security-Fundamental-Containerized-Applications/dp/1492056707\">Container Security</a>",
+                  "long_bio": "Stefan Tilkov is a co-founder and principal consultant at innoQ, a technology consulting company with offices in Germany and Switzerland. He has been involved in the design of large-scale, distributed systems for more than two decades, using a variety of technologies and tools. He has authored numerous articles, authored and contributed to several books, and is a frequent speaker at conferences around the world.",
+                  "title": "Building a Container from Scratch",
+                  "description": "What is a container? Is it really a “lightweight VM”? What are namespaces and control groups? What does a host machine know about my containers? And what do my containers know about each other? In this talk Liz will live-code a container in a few lines of Go code, to answer",
+                  "img": "images/liz.png",
                   "presentation": "",
                   "video": ""
-              },                 
+            },               
               {
                 "time": "14:50",
                 "tags": ["clean code", "domain-driven design", "java examples"],
@@ -703,16 +704,20 @@
                         "icon": "fa-coffee"
                     },
                     {
-                      "time": "18:20",                            
-                      "name": "Scott Hanselman",
+                      "time": "18:20",
+                      "tags": ["leadership", "soft skills", "people"],
+                      "name": "David Neal",
+                      "twitter": "reverentgeek",
                       "type": "speech",
-                      "twitter": "shanselman",                      
                       "country": "us",
-                      "bio": "Principal Community Architect for Web Platform @ Microsoft, Blogger, Podcaster",
-                      "img": "images/hanselman.png", 
-                      "title": "pending",
-                      "description": "As information workers, we are asked to absorb even more information than ever before. More blogs, more documentation, more patterns, more layers of abstraction. Now Twitter and Facebook compete with Email and Texts for our attention, keeping us up-to-date on our friends dietary details and movie attendance second-by-second. Does all this information take a toll on your psyche or sharpen the saw? Is it a matter of finding the right tools and filters to capture what you need, or do you just need to unplug."
-                    },   
+                      "bio": "Senior Developer Advocate @ Octa, Microsoft MVP",
+                      "title": "Leadership Guide for the Reluctant Leader",
+                      "description": "Regardless of the technology you know, regardless of the job title you have, you have amazing potential to impact your workplace, community, and beyond. In this talk, I’ll share a few candid stories of my career failures… I mean… learning opportunities. We’ll start by debunking the myth that leadership == management. Next, we’ll talk about some the attributes, behaviors and skills of good leaders. Last, we’ll cover some practical steps and resources to accelerate your journey. You’ll walk away with some essential leadership skills I believe anyone can develop, and a good dose of encouragement to be more awesome!",
+                      "img": "images/dneal.png",
+                      "presentation": "",
+                      "video": ""
+                  },                                     
+  
                     {
                         "type": "break",
                         "time": "19:10",
