@@ -1,14 +1,14 @@
 [
     {
-        "theme": "DevTernity 2022",
+        "theme": "DevTernity 2021",
         "selfLink": "https://devternity.com",
         "codename": "DT_RIX_21",
         "facebookEvent": "https://www.facebook.com/events/240371927133227",
         "desc": "Turning developers into architects and engineering leaders.",
         "month": "December 2022",
-        "date": "9-10 December 2022",
-        "date_iso": "2022-12-09",
-        "date_epoch": "1639040400000",
+        "date": "10–11 December 2021",
+        "date_iso": "2021-12-10",
+        "date_epoch": "1639119600000",
         "duration_days": 2,
         "attendees_total": 800,
         "roomCapacities": {
@@ -246,7 +246,7 @@
         "program": [
             {
                 "event": "workshops",
-                "date_iso": "2022-12-10",
+                "date_iso": "2021-12-11",
                 "schedule": [
                   {
                     "product": "DNEAL",
@@ -381,7 +381,7 @@
             },
             {
                 "event": "keynotes",
-                "date_iso": "2021-12-10",
+                "date_iso": "2022-12-10",
                 "schedule": [
                     {
                         "type": "start",
