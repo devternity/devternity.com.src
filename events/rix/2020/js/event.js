@@ -8,7 +8,7 @@
         "month": "December 2022",
         "date": "10–11 December 2021",
         "date_iso": "2021-12-10",
-        "date_epoch": "1639119600000",
+        "date_epoch": "1639119600001",
         "duration_days": 2,
         "attendees_total": 800,
         "roomCapacities": {
