@@ -21,7 +21,7 @@
         },
         "talks_total": 20,
         "workshops_total": 7,
-        "city": "Riga",
+        "city": "Online",
         "city_img": "riga.png",
         "contactEmail": "hello@devternity.com",
         "slack_channels": "C6X29SJM7,C6WTMHFQ8",
@@ -40,7 +40,7 @@
         "announced": true,
         "venue_address": "Mukusalas street 3",
         "venue_postal_code": "LV-1423", 
-        "venue_name": "The National Library of Latvia",
+        "venue_name": "Eastern European Time",
         "venue_map": "https://www.google.com/maps/place/DevTernity+Conference/@56.9397422,24.0965636,17z/data=!3m1!4b1!4m5!3m4!1s0x46eec53ffbf34663:0xa268eab43af282d4!8m2!3d56.9397393!4d24.0987577",
         "buzzwords": [],
         "team": [
