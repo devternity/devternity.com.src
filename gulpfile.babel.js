@@ -102,66 +102,6 @@ gulp.task('copy-events', () => {
     }))
 });
 
-gulp.task('generate-calendar', () => {
-
-    eventsNewOnly.map(event => {
-
-        let newLine = '\r\n'
-        let event_js = eventJs(event.loc);
-
-        let calendarEvents = _.flatMap(event_js.program, conferenceDay => {
-            let [year, month, day] = conferenceDay.date_iso.split('-')
-            let chronoTimes = _.uniq(conferenceDay.schedule.map(event => event.time))
-
-            let talks = _.groupBy(conferenceDay.schedule.filter(event => event.title), 'time')
-            
-  
-            return _.flatMap(talks, (events, time) => {
-                return events.map((event, index) => {
-                    let [startHour, startMinute] = time.split(":")
-
-                    let track = events.length == 3 ? `(Track ${index + 1}) ` : ''
-                    let endTime = event.endTime ? event.endTime : chronoTimes[chronoTimes.indexOf(time) + 1]
-                    let [endHour, endMinute] = endTime.split(":")
-                    let speaker = event.name ? ` (${event.name})` : ''
-                    let tags = (event.tags ? event.tags : []).map(tag => `#${tag}`).join(' ')
-                    let desc = event.description ? htmlToText.fromString(tags + '<br><br>' + event.description, {wordwrap: false}) : ''
-                    return {
-                      start: new Date(year, month - 1, day, startHour, startMinute, 0),
-                      end: new Date(year, month - 1, day, endHour, endMinute, 0),
-                      summary: `${event.title}${speaker}`,
-                      description: desc,
-                      location: event.location ? event.location : `DevTernity ${track.trim()}`,
-                      url: event_js.selfLink,
-                      organizer: {
-                        name: 'DevTernity Team',
-                        email: 'hello@devternity.com'
-                      }  
-                    }
-                })
-            })
-        })
-
-        let icalToolkit = require('ical-toolkit')
-        let builder = icalToolkit.createIcsFileBuilder()
-        builder.throwError = true
-        builder.NEWLINE_CHAR = newLine
-        builder.ignoreTZIDMismatch = false
-
-        builder.calname = event_js.theme
-        builder.prodid = event_js.theme
-        builder.timezone = 'europe/riga'
-        builder.tzid = 'europe/riga'
-
-
-        calendarEvents.forEach(e => {
-          builder.events.push(e)
-        })
-        let base = event.current ? dirs.dest : `${dirs.dest}/${event.loc}`
-        fs.writeFileSync(`${__dirname}/${base}/cal.ics`, builder.toString());
-    })
-})
-
 gulp.task('events', ['copy-events'], () => {
     return merge(events.map(event => {
         console.log(`Overriding ${event.loc} with specifics files`)
@@ -193,7 +133,7 @@ gulp.task('watch', () => {
 
 // it is important, that purgecss runs after there are files in ./build
 gulp.task('build', function (cb) {
-    runSequence('events', 'generate-calendar', 'copy-statics', cb)
+    runSequence('events', 'copy-statics', cb)
 });
 
 gulp.task('deploy', ['ghPages']);

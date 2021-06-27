@@ -384,22 +384,11 @@
                 "date_iso": "2022-12-10",
                 "schedule": [
                     {
-                        "type": "start",
-                        "time": "8:00",
-                        "title": "Registration and Coffee"
-                    },
-                    {
-                        "type": "break",
-                        "time": "9:00",
-                        "title": "Conference Opening",
-                        "icon": "fa-bullhorn"
-                    },
-                    {
                       "name": "Kevlin Henney",
                       "type": "speech",
                       "tags": ["simplicity", "yagni", "architecture"],
                       "twitter": "kevlinhenney",
-                      "time": "9:15",
+                      "time": "9:00",
                       "country": "gb",
                       "bio": "Consultant, Trainer, Writer, Editor of <a href=\"https://www.amazon.com/Things-Every-Programmer-Should-Know/dp/0596809484/\">97 Things Every Programmer Should Know</a>",
                       "title": "Decremental Development",
@@ -410,12 +399,12 @@
                   },                                          
                     {
                         "type": "break",
-                        "time": "10:10",
+                        "time": "9:50",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
                     {
-                      "time": "10:30",
+                      "time": "10:00",
                       "tags": ["live coding", "DDD", ".net examples"],
                       "name": "Jimmy Bogard",
                       "type": "speech",
@@ -433,7 +422,7 @@
                     "type": "speech",
                     "tags": ["coding", "clean code", "refactoring"],
                     "twitter": "kytrinyx",
-                    "time": "10:30",
+                    "time": "10:00",
                     "country": "us",
                     "bio": "Senior Software Engineer @ GitHub, Creator @ exercism.io, Co-author of <a href=\"https://www.sandimetz.com/99bottles\">99 Bottles of OOP</a>",
                     "title": "One Small Step",
@@ -443,7 +432,7 @@
                     "video": ""
                 },                    
                 {
-                  "time": "10:30",
+                  "time": "10:00",
                   "tags": ["agility", "software delivery", "work organization"],
                   "name": "Sandro Mancuso",
                   "twitter": "sandromancuso",
@@ -460,12 +449,12 @@
                 },
                     {
                         "type": "break",
-                        "time": "11:20",
+                        "time": "10:50",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     }, 
                     {
-                      "time": "11:40",
+                      "time": "11:00",
                       "tags": ["automated testing", "best practices", "live coding"],
                       "name": "Jakub Pilimon",
                       "type": "speech",
@@ -479,7 +468,7 @@
                       "video": ""
                 },                         
                 {
-                  "time": "11:40",
+                  "time": "11:00",
                   "tags": ["professionalism", "extreme programming", "career"],
                   "name": "Anton Keks",
                   "twitter": "antonkeks",
@@ -493,7 +482,7 @@
                   "video": ""
                 },                       
                 {
-                  "time": "11:40",
+                  "time": "11:00",
                   "tags": ["strategic refactoring", "technical debt", "code analysis"],
                   "name": "Adam Tornhill",
                   "twitter": "adamtornhill",
@@ -508,12 +497,12 @@
               },                                                                                                      
                     {
                         "type": "break",
-                        "time": "12:30",
-                        "title": "Long Break",
+                        "time": "11:50",
+                        "title": "Lunch Break",
                         "icon": "fa-cutlery"
                     },
                     {
-                      "time": "13:40",
+                      "time": "13:00",
                       "tags": ["estimation", "planning", "handling deadlines"],
                       "name": "Maxim Dorofeev",
                       "twitter": "cartmendum",
@@ -527,7 +516,7 @@
                       "video": ""
                     },               
                     {
-                      "time": "13:40",
+                      "time": "13:00",
                       "tags": ["career advice", "architect's skills", "soft skills"],
                       "name": "Venkat Subramaniam",
                       "twitter": "venkat_s",
@@ -541,7 +530,7 @@
                       "video": ""
                     },         
                     {
-                      "time": "13:40",
+                      "time": "13:00",
                       "name": "J.B. Rainsberger",
                       "type": "speech",
                       "twitter": "jbrains",
@@ -554,12 +543,12 @@
                     },                                                                                                 
                   {
                     "type": "break",
-                    "time": "14:30",
+                    "time": "13:50",
                     "title": "Coffee Break",
                     "icon": "fa-coffee"
                 }, 
                 {
-                  "time": "14:50",
+                  "time": "14:00",
                   "tags": ["containers", "docker", "live-coding"],
                   "name": "Liz Rice",
                   "type": "speech",
@@ -574,7 +563,7 @@
                   "video": ""
             },               
               {
-                "time": "14:50",
+                "time": "14:00",
                 "tags": ["clean code", "domain-driven design", "java examples"],
                 "name": "Bartłomiej Słota",
                 "twitter": "bartekslota",
@@ -588,27 +577,27 @@
                 "video": ""
               },                     
               {
-                "time": "14:50",
-                "tags": ["distributed systems", "fault tolerance", "live demo"],
-                "name": "Saša Jurić",
-                "twitter": "sasajuric",
+                "time": "14:00",
+                "tags": ["agile", "extreme programming", "craftsmanship"],
+                "name": "Robert \"Uncle Bob\" Martin",
+                "twitter": "unclebobmartin",
                 "type": "speech",
-                "country": "hr",
-                "bio": "Elixir Mentor, Author of <a href=\"https://www.amazon.com/Elixir-Action-Sa%C5%A1a-Juri-cacute/dp/161729201X\">Elixir in Action</a>, OSS contributor",
-                "title": "The Soul of Erlang and Elixir",
+                "country": "us",
+                "bio": "Master Craftsman, Author of <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>, <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Architecture</a>, <a href=\"https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/\">The Clean Coder</a>, and <a href=\"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164\">Clean Agile</a>",
+                "title": "Clean Agile: Back to Basics",
                 "description": "Whether you're developing a small web site or a large-scale distributed system, Erlang and Elixir are great tools for building server-side systems. Both languages can help you start quickly and deal with highly complex problems at a large scale. This talk aims to explain what makes Erlang and Elixir suitable for such tasks. We'll look past the syntax and the ecosystem, focusing instead on the concurrency model of these languages. Combining a bit of high-level theory and a couple of demos, we'll examine some important properties of Erlang/Elixir concurrency, with a special emphasis on why these properties are very relevant when building highly available systems. The talk targets experienced backend developers, but no knowledge of Erlang or Elixir is required. You will walk away from the talk with a better understanding of what distinguishes Erlang and Elixir from the rest of the pack, and why these languages are very compelling choices to power your next software system.",
-                "img": "images/sasha.png",
+                "img": "images/unclebob.jpg",
                 "presentation": "",
                 "video": ""
               },                                                                                              
                       {
                           "type": "break",
-                          "time": "15:40",
+                          "time": "14:50",
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
                       },
                       {
-                        "time": "16:00",
+                        "time": "15:00",
                         "name": "Bert Jan Schrijver",
                         "twitter": "bjschrijver",
                         "tags": ["no slides", "live show", "tips&tricks"],
@@ -622,7 +611,7 @@
                         "video": ""
                       },
                       {
-                        "time": "16:00",
+                        "time": "15:00",
                         "tags": ["databases", "internals", "deep-dive"],
                         "name": "Kai Sassnowski",
                         "twitter": "warsh33p",
@@ -636,7 +625,7 @@
                         "video": ""
                       },
                       {
-                        "time": "16:00",                            
+                        "time": "15:00",                            
                         "name": "Jakub Nabrdalik",
                         "type": "speech",
                         "tags": ["behavior-driven development", "understanding requirements"],
@@ -649,12 +638,12 @@
                       },
                       {
                           "type": "break",
-                          "time": "16:50",
+                          "time": "15:50",
                           "title": "Coffee Break",
                           "icon": "fa-coffee"
                       },
                       {
-                        "time": "17:10",
+                        "time": "16:00",
                         "tags": ["effectiveness", "productivity", "deep work"],
                         "name": "Sven Peters",
                         "twitter": "svenpet",
@@ -673,7 +662,7 @@
                         "type": "speech",
                         "tags": ["programmer's life", "trends", "technical decisions"],
                         "twitter": "hhariri",
-                        "time": "17:10",
+                        "time": "16:00",
                         "country": "es",
                         "bio": "VP of Developer Advocacy @ JetBrains",
                         "title": "The Silver Bullet Syndrome",
@@ -683,7 +672,7 @@
                         "video": ""
                     },
                     {
-                      "time": "17:10",
+                      "time": "16:00",
                       "tags": ["architecture", "principles", "lessons learned"],
                       "name": "Stefan Tilkov",
                       "type": "speech",
@@ -699,12 +688,12 @@
                 },   
                     {
                         "type": "break",
-                        "time": "18:00",
+                        "time": "16:50",
                         "title": "Coffee Break",
                         "icon": "fa-coffee"
                     },
                     {
-                      "time": "18:20",
+                      "time": "17:00",
                       "tags": ["leadership", "soft skills", "people"],
                       "name": "David Neal",
                       "twitter": "reverentgeek",
@@ -716,21 +705,7 @@
                       "img": "images/dneal.png",
                       "presentation": "",
                       "video": ""
-                  },                                     
-  
-                    {
-                        "type": "break",
-                        "time": "19:10",
-                        "title": "Final Words"
-                    },
-                    {
-                        "type": "finish",
-                        "time": "19:30",
-                        "endTime": "23:00",
-                        "location": "Stargorod Riga — Czech brewery, Republikas Laukums 1, Central District, Riga",
-                        "title": "Beer Afterparty",
-                        "icon": "fa-beer"
-                    }
+                  }
                 ]
             }
         ]
