@@ -463,7 +463,7 @@
             "bio": "Master Craftsman, Author of <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Code</a>, <a href=\"https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882\">Clean Architecture</a>, <a href=\"https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/\">The Clean Coder</a>, and <a href=\"https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164\">Clean Agile</a>",
             "title": "The Craftsman's Oath",
             "description": "We are programmers who aspire to be worthy of the title of Craftsman. So what is a software craftsman? What promises do software craftsmen make to their fellow craftsmen, their employers, and society at large? In this talk, Uncle Bob presents, for your consideration, an oath for all who desire to serve society through the design and implementation of computer programs.",
-            "img": "images/unclebob.jpg",
+            "img": "images/unclebobvec.png",
             "presentation": "",
             "video": ""
           },
