@@ -373,7 +373,7 @@
             "description": "<h3>What's inside?</h3> <ul class=\"awsm\"><li>Why Evolutionary?</li><li>How to create Evolutionary Architecture?</li><li>Refactoring design and architecture</li><li>Code Quality and its impact on Evolutionary Design</li><li>Good coding practices for Evolutionary Design</li><li>Test-Driven Design</li><li>Engineering practices to succeed in Evolutionary Design</li>...and much more!</li></ul> <p>The course has a good balance of interactive lectures and hands-on exercises. The attendees are expected to pair-up and work on the lab exercises.</p>",
             "img": "images/venk_vec.png",
             "presentation": "",
-            "sold_out_soon": false,
+            "sold_out_soon": true,
             "video": ""
           }
         ]
