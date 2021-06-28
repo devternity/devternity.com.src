@@ -577,17 +577,15 @@
           },
           {
             "time": "14:00",
-            "tags": ["automated testing", "best practices", "live coding"],
-            "name": "Jakub Pilimon",
+            "name": "Jakub Nabrdalik",
             "type": "speech",
-            "twitter": "jakubpilimon",
+            "tags": ["software design", "architecture"],
+            "twitter": "jnabrdalik",
             "country": "pl",
-            "bio": "Principal Technologist @ VMWare, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
-            "title": "Unit Testing Done Right",
-            "description": "Coming soon...",
-            "img": "images/pilo.png",
-            "presentation": "",
-            "video": ""
+            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
+            "img": "images/jnb_vec.png",
+            "title": "What I Wish I Knew When I Started Designing Systems Years Ago",
+            "description": "I started designing systems (also known as: architecture) 18 years ago. I'm not very smart, so I've made a lot of mistakes on the way. Surprisingly it turned out these are quite common. I'd like to share a few things I’ve learned that would save me a lot of tears, had I known better back then. I’ll talk about communication styles, modularity, SLA, invariants and events, choreography vs orchestration, single point of truth vs data ownership, products vs projects. This talk is for people starting with software architecture."
           },
           {
             "type": "break",
@@ -625,16 +623,18 @@
           },
           {
             "time": "15:00",
-            "name": "Jakub Nabrdalik",
+            "tags": ["automated testing", "best practices", "live coding"],
+            "name": "Jakub Pilimon",
             "type": "speech",
-            "tags": ["behavior-driven development", "understanding requirements"],
-            "twitter": "jnabrdalik",
+            "twitter": "jakubpilimon",
             "country": "pl",
-            "bio": "Solution Architect, Developer and Mentor at Bottega IT Minds, ex-Head of Software Development @ 4Finance",
-            "img": "images/jnb_vec.png",
-            "title": "User Stories Considered Harmful",
-            "description": "Long time ago there was a role of a business analyst, who would discover and gather client requirements, then together with a system analysts, write them down. Next, they would meet an architect, where they would analyze the impact of those requirements on the architecture, and impact of architecture on business opportunities. This collaboration would provide new ideas for the business, but most of all, would create the analysis that went to developers. Then there were eXtreme Programming (XP). Then came Scrum and Kanban with Scrum Masters and Product Owners. Neither of them had any experience with XP, but since they loathed the old world, they have fired all the system and business analysts. And so, two working methods of requirement analysis were replaced by a single ineffective meeting called “grooming”, where a seven plus/minus three people, without any preparation, try to estimate something that nobody took time to understand. I’d like to show you how we came to this point, why the current situation puts developers in jail, and how to solve this madness."
-          },
+            "bio": "Principal Technologist @ VMWare, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
+            "title": "Unit Testing Done Right",
+            "description": "Coming soon...",
+            "img": "images/pilo.png",
+            "presentation": "",
+            "video": ""
+          },          
           {
             "type": "break",
             "time": "15:50",
