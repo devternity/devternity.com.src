@@ -477,7 +477,7 @@
             "bio": "Principal @ Hollub Associates Ltd, Pluralsight Author, Author of <a href=\"https://www.oreilly.com/library/view/design-patterns-in/9781491935828/\">Design Patterns in the Real World</a> course",
             "title": "War is Peace, Freedom is Slavery, Ignorance is Strength, Scrum is Agile",
             "description": "A few years ago, the death of agile was a meme. Agile was (and is still) being supplanted by 'Dark Agile', an Agile in name only, with few of the benefits of the real thing. In a way, things have gotten worse. Agile has arisen as a zombie, eating the brains of the corporate world. 'Dark Agile' flies in the face of basic principles, and does active damage. All is not lost, though. There are organizations, some quite large, that are 'doing it right', and reaping the benefits. We haven't fallen completely into Orwellian dysfunction. This talk shows you what Agile should be and contrasts that to what it has become. We’ll look at the ways that it’s been perverted",
-            "img": "images/allenh.jpg",
+            "img": "images/allenvector.png",
             "presentation": "",
             "video": ""
           },
