@@ -303,25 +303,6 @@
             "video": ""
           },
           {
-            "product": "JEDI",
-            "time": "9:00",
-            "endTime": "18:00",
-            "tags": ["productivity", "getting things done", "smarter working"],
-            "name": "Maxim Dorofeev",
-            "twitter": "cartmendum",
-            "type": "speech",
-            "country": "ru",
-            "bio": "Founder @ mnogosdelal.ru, ex-Head of IT @ Kaspersky Lab, Author of <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a>",
-            "long_bio": "Maxim is award-winning trainer and speaker, focused on personal and team efficiency. He has over 15 years of experience in IT under his belt. Maxim is the founder of mnogosdelal.ru, ex-Head of IT Engineering at Kaspersky Lab, and the author author of best-selling <a href=\"https://www.amazon.com/dp/B06XX85FXM\">Jedi Techniques</a> book.",
-            "title": "Jedi Techniques of Personal Effectiveness",
-            "brief_description": "This practical workshop will equip you with necessary skills for accomplishing more, with less stress and efforts, and bring you closer to the work-life balance on a win-win basis. After the training, you will know how to achieve more at work and personal life simultaneously (instead of conventional view: “one at the expense of another”).",
-            "description": "<h3>In practical and entertaining way, you will learn:</h3> <ul class=\"awsm\"><li>How do our minds work? Daniel Kahneman’s and Tim Urban’s models.</li><li>What does instant gratification monkey do in my head and how to tame it? </li><li>How cognitive biases affect our day-to-day work?</li><li>The concept of limited Mindfuel and how to save it</li><li>Why some TODO lists don't work and how to make TODOs work</li><li>Methods of “Magic fairy” and “Rational flaneur”</li><li>How to succeed in a highly uncertain environment</li><li>How technology hijacks our minds and how to prevеnt it</li><li>How to deal with commitments under tight deadlines and high uncertainty</li><li>...and much more!</li></ul><p>More than 50% of workshop time is devoted to practice, exercises and discussions. The workshop offers concrete, ready-to-use improvement recipes for daily work.",
-            "img": "images/max_vec.png",
-            "presentation": "",
-            "sold_out": false,
-            "video": ""
-          },
-          {
             "product": "AGILE_ARCHITECTURE",
             "name": "Kevlin Henney",
             "tags": ["agility", "architecture"],
@@ -332,7 +313,7 @@
             "bio": "Consultant, Trainer, Writer, Author of 97 Things Every Programmer Should Know",
             "long_bio": "Kevlin is an independent consultant and trainer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for various magazines and web sites, including Better Software, The Register, Application Development Advisor, Java Report and the C/C++ Users Journal. Kevlin is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of the 97 Things Every Programmer Should Know site and book.",
             "title": "Agile Architecture",
-            "brief_description": "<b>This a new, re-designed edition of the course (2021).</b><p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p>",
+            "brief_description": "<p>Every system has an architecture, whether accidental or intentional, and regardless of whether it was put in place by a nominated architect or whether it emerged from the decisions and discussions of a team. All too often the focus of what is often described as architecture is centred around a specific set of platform technologies, which forms only one part of the set of concerns an architecture should. And all too often architecture is seen as a separate concern from development process, whereas the two are intertwined — what you build is influenced by how you build it, and vice versa. </p><p>This course looks at the relationship between Agile processes and good architecture, taking in development process models, architectural styles, requirements techniques, sufficient modelling techniques, design patterns and testing practices. This course includes a number of practical exercises so that attendees can see how the different activities fit together.</p>",
             "description": "<h3>What's inside?</h3> <p>The course covers a wide range of topics through a number of practical exercises, with plenty of time dedicated to group discussion:</p><ul class=\"awsm\"><li>The relationship between development process and architecture<li>The roles and failure modes of testing, modelling and technology platforms<li>Different architectural styles and design patterns<li>How to transform product vision into architecture<li>Future-proofing your architecture, and accounting for uncertainty<li>How to ground your architecture and avoid overdesign<li>...and much more!</li></ul>",
             "img": "images/kevlin.png",
             "presentation": "",
@@ -340,7 +321,7 @@
             "video": ""
           },
           {
-            "product": "CRAFTING_CODE",
+            "product": "CD",
             "name": "Sandro Mancuso",
             "type": "speech",
             "twitter": "sandromancuso",
@@ -348,12 +329,11 @@
             "endTime": "18:00",
             "tags": ["clean code", "tdd", "refactoring"],
             "country": "gb",
-            "bio": "Software Craftsman and Founder @ Codurance, Author of <a href=\"https://www.amazon.com/Software-Craftsman-Professionalism-Pragmatism-Robert/dp/0134052501\">The Software Craftsman</a>",
-            "long_bio": "Software craftsman at Codurance, author of The Software Craftsman, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. Before starting his own consultancy, he worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
-            "title": "Crafting Code",
-            "brief_description": "This course is designed to help developers get better at Test-Driven Development and write well-crafted code—code that is clean, testable, maintainable, and an expression of the business domain. The course is entirely hands-on, designed to teach developers practical techniques they can immediately apply to real-world projects.</p><p><b>Software Craftsmanship</b> is at the heart of this course. Throughout, you will learn about the Software Craftsmanship attitude to development and how to apply it to your workplace.",
-            "description": "<h3>After the training, you will:</h3><ul class=\"fa-ul\"><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Know how to write clean code that is easy to understand and maintain</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Become more proficient in Test-Driven Development: using tests to design and build your code base</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Focus your tests and production code according to business requirements using Outside-In TDD</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Understand design principles that lead to clean code</li><li><span class=\"fa-li\"><i class=\"fas fa-check-square\"></i></span>Avoid over-engineering and large rewrites by incrementally evolving your design using tests</li></ul></p><p>Once you have an understanding of the principles at work, we will apply them to <b>Legacy Code</b> to help you gain confidence in improving legacy projects through testing, refactoring and redesigning. <b>The course is fully hands-on and developers will be writing a lot of code.</b>",
-            "img": "images/sandro_vec.png",
+            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
+            "title": "Continuous Delivery: Better Software Faster",
+            "brief_description": "Continuous Delivery is practiced by many of the most successful businesses on the planet — like Amazon, Netflix, Google, and Tesla. This course will teach you the Continuous Delivery techniques you need to deliver quality software into the hands of your customers more quickly. <p>Learn from the expert - Dave Farley shares his experience and examples from organizations who have transformed their businesses, so you can build <b>better software faster.</b></p>",
+            "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery produces Better Software Faster</li><li>How Continuous Delivery can transform your business</li><li>7 Essential Techniques of Continuous Delivery and how to apply them</li><li>How to develop a Continuous Delivery Mindset</li><li>How a Deployment Pipelines work and how to build one</li><li>How to get fewer bugs, quicker releases, less stress, and quality code</li><li>... and much more!</li></ul></p>",
+            "img": "images/davefarley.png",
             "presentation": "",
             "video": ""
           },
@@ -691,6 +671,20 @@
             "title": "Coffee Break",
             "icon": "fa-coffee"
           },
+          {
+            "name": "Dave Farley",
+            "type": "speech",
+            "tags": ["testing", "qa", "automation"],
+            "twitter": "davefarley77",
+            "time": "17:00",
+            "country": "gb",
+            "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
+            "title": "Acceptance Testing for Continuous Delivery",
+            "description": "Writing and maintaining a suite of acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this session, Dave will describe approaches to acceptance testing that allow teams to work quickly and effectively, build excellent functional coverage for complex enterprise-scale systems, manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem.",
+            "img": "images/davefarley.png",
+            "presentation": "",
+            "video": ""
+        },             
           {
             "time": "17:00",
             "tags": ["leadership", "soft skills", "people"],
