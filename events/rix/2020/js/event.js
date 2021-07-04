@@ -333,7 +333,7 @@
             "title": "Continuous Delivery: Better Software Faster",
             "brief_description": "Continuous Delivery is practiced by many of the most successful businesses on the planet — like Amazon, Netflix, Google, and Tesla. This course will teach you the Continuous Delivery techniques you need to deliver quality software into the hands of your customers more quickly. <p>Learn from the expert - Dave Farley shares his experience and examples from organizations who have transformed their businesses, so you can build <b>better software faster.</b></p>",
             "description": "<h3>During this training, you'll learn:</h3><ul class=\"awsm\"><li>How Continuous Delivery produces Better Software Faster</li><li>How Continuous Delivery can transform your business</li><li>7 Essential Techniques of Continuous Delivery and how to apply them</li><li>How to develop a Continuous Delivery Mindset</li><li>How a Deployment Pipelines work and how to build one</li><li>How to get fewer bugs, quicker releases, less stress, and quality code</li><li>... and much more!</li></ul></p>",
-            "img": "images/davefarley.png",
+            "img": "images/davefarleysmall.png",
             "presentation": "",
             "video": ""
           },
@@ -681,7 +681,7 @@
             "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
             "title": "Acceptance Testing for Continuous Delivery",
             "description": "Writing and maintaining a suite of acceptance tests that can give you a high level of confidence in the behaviour and configuration of your system is a complex task. In this session, Dave will describe approaches to acceptance testing that allow teams to work quickly and effectively, build excellent functional coverage for complex enterprise-scale systems, manage and maintain those tests in the face of change, and of evolution in both the codebase and the understanding of the business problem.",
-            "img": "images/davefarley.png",
+            "img": "images/davefarleysmall.png",
             "presentation": "",
             "video": ""
         },             
