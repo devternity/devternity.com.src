@@ -696,7 +696,7 @@
           {
             "type": "break",
             "time": "17:30",
-            "title": "Finish!",
+            "title": "Success!",
             "icon": "fa-finish"
           }
         ]
