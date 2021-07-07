@@ -353,7 +353,25 @@
             "presentation": "",
             "sold_out_soon": true,
             "video": ""
-          }   
+          },
+          {
+            "product": "JBRAINS",
+            "name": "J.B. Rainsberger",
+            "type": "speech",
+            "twitter": "jbrains",
+            "time": "13:00",
+            "endTime": "19:00",
+            "tags": ["refactoring"],
+            "country": "ca",
+            "bio": "Software Coach, Mentor and Consultant, TDD Trainer <a href=\"https://tdd.training\">tdd.training</a>",
+            "title": "Refactoring Workout",
+            "brief_description": "You want to refactor, but you don’t but you never seem to find the time to work at it. You feel pressure at your day job to shove features out the door, you’re constantly fighting fires. This course helps you break through your refactoring rut. It combines inspiration and practical refactoring techniques that will teach you <b>how to refactor the codebase at your day job</b> (without appearing slower than the people around you). <p>Note: this course runs from 13:00 until 19:00.</p>",
+            "description": "<h3>You'll learn:</h3> <ul class=\"awsm\"><li>How to break through the refactoring rut that you and many other programmers have experienced</li><li>How to master refactoring skills for speed and confidence</li><li>How not to let the lack of tests stand in the way of refactoring</li><li>How to perform microsteps and moves accurately and safely</li><li>The role of Chunking and Casino Techniques in building refactoring skill</li><li>...and much more!</li></ul><p>This contains is hands-on and contains a handful of refactoring practice drills.</p>",
+            "img": "images/jb_vec.png",
+            "presentation": "",
+            "sold_out_soon": true,
+            "video": ""
+          }          
         ]
       },
       {
