@@ -322,12 +322,12 @@
           },
           {
             "product": "CD",
-            "name": "Sandro Mancuso",
+            "name": "Dave Farley",
             "type": "speech",
-            "twitter": "sandromancuso",
+            "twitter": "davefarley77",
             "time": "9:00",
             "endTime": "18:00",
-            "tags": ["clean code", "tdd", "refactoring"],
+            "tags": ["devops", "continuous delivery", "automation"],
             "country": "gb",
             "bio": "Founder and Director @ Continuous Delivery Ltd, Co-author of best-selling <a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912\">Continuous Delivery</a> and <a href=\"https://leanpub.com/cd-pipelines\">Continuous Delivery Pipelines</a>",
             "title": "Continuous Delivery: Better Software Faster",
@@ -355,7 +355,7 @@
             "presentation": "",
             "sold_out_soon": true,
             "video": ""
-          }
+          },          
         ]
       },
       {
