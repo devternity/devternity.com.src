@@ -642,7 +642,7 @@
           "country": "pl",
           "bio": "Principal Technologist @ VMWare, Trainer @ ‎Bottega IT Minds, DZone's Most-Valuable Blogger",
           "title": "Unit Testing Done Right",
-          "description": "Coming soon...",
+          "description": "\"Test-Driven-Development leads to a great design\" - they said. Does it? Always? \"Don’t Mock in your tests\" vs \"Mock everything\" - so which one do I choose? \"100% code coverage is a must\" - really? Why? And the list goes on… In this presentation we are going to talk about popular beliefs in the testing world. We will see  slides and live coding examples. Both juniors and seniors should find something useful in it.",
           "img": "images/pilo.png",
           "presentation": "",
           "video": ""
