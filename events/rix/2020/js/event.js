@@ -631,6 +631,7 @@
           "description": "We are programmers who aspire to be worthy of the title of Craftsman. So what is a software craftsman? What promises do software craftsmen make to their fellow craftsmen, their employers, and society at large? In this talk, Uncle Bob presents, for your consideration, an oath for all who desire to serve society through the design and implementation of computer programs.",
           "img": "images/unclebobvec.png",
           "presentation": "",
+          "superspeaker": true,
           "video": ""
         },        
         {
@@ -693,6 +694,7 @@
           "description": "Many developers aspire to become architects. Some of us serve currently as architects while the rest of us may hope to become one some day. We all have worked with architects, some good, and some that could be better. What are the traits of a good architect? What are the skills and qualities we should pick to become a very good one? Come to this presentation to learn about things that can make that journey to be a successful architect a pleasant one.",
           "img": "images/venk_vec.png",
           "presentation": "",
+          "superspeaker": true,
           "video": ""
         },             
           {

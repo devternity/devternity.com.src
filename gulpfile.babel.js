@@ -10,7 +10,6 @@ import moment from 'moment'
 import fs from "fs"
 import _ from "lodash"
 import purgecss from 'gulp-purgecss'
-import htmlToText from 'html-to-text'
 import runSequence from 'run-sequence'
 
 const events = [
@@ -35,11 +34,6 @@ const css = {
     src: 'event-template/css/*.css',
     dest: 'build/css',
     html: 'build/index.html'
-};
-
-const images = {
-    src: 'event-template/images/*',
-    dest: 'build/images'
 };
 
 const eventJs = (loc) => {
@@ -74,12 +68,14 @@ gulp.task('copy-events', () => {
             .schedule
             .map(it => _.extend(it, it.tags ? {tagList: it.tags.map(it => `#${it}`).join(' ')} : {}));
     
-        let speakers = talks
+        let speakers = _.chain(talks)
             .filter(it => it.type === "speech")
             .map(it => _.extend(it, it.tags ? {tagList: it.tags.map(it => `#${it}`).join(' ')} : {}))
             .map(it => [it, it.partner])
             .reduce((it, that) => it.concat(that))
-            .filter(it => it);
+            .filter(it => it)
+            .sortBy('superspeaker')
+            .value();
 
         let speakersInRows = _.chunk(speakers, 4);
         let hasUnknownSpeakers = talks.some(it => it.type === "speech" && !it.name);
